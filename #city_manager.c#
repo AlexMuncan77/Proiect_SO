@@ -114,7 +114,6 @@ void update_threshold(const char *district, int value, const char *role, const c
   log_action(district, role, user, "UPDATE_THRESHOLD");
 }
 
-
 void add_report(const char *district, const char *user, const char *role) {
 mkdir(district, 0750);
  
